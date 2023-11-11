@@ -12,7 +12,7 @@ nvim_appimage_link=$nvim_base_download_link/nvim.appimage
 # download 
  wget $nvim_appimage_link 
  chmod +x nvim.appimage
- cp nvim.appimage /bin/.
+ cp nvim.appimage /bin/nvim
 
 #install kitty
 sudo apt-get install kitty gnome-tweaks zsh
@@ -25,12 +25,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 
 #the plugins and the powerlevel10k theme you have to mannually add them to your .zshrc file
 
-mv ./nvim ~/config/.
-mv ./kitty ~/config/.
-mv ./.themes ~/.
-mv ./.oh-my-zsh ~/.
-mv ./.p10k.zsh ~/.
-mv ./powerlevel10k ~/.
+mv -r ./nvim ~/config/.
+mv -r ./kitty ~/config/.
+mv -r ./.themes ~/.
+mv -r ./.oh-my-zsh ~/.
+mv -r ./.p10k.zsh ~/.
+mv -r ./powerlevel10k ~/.
 
 echo "folders moved successfully!!"
 
