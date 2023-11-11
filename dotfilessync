@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-cp -r ~/.oh-my-zsh ~/dotfiles/.
-cp -r ~/.themes ~/dotfiles/.
-cp -r ~/.p10k.zsh ~/dotfiles/.
-cp -r ~/.config/kitty ~/dotfiles/.
-cp -r ~/.config/nvim ~/dotfiles/.
+sudo cp -r ~/.oh-my-zsh ~/dotfiles/.
+sudo cp -r ~/.themes ~/dotfiles/.
+sudo cp -r ~/.p10k.zsh ~/dotfiles/.
+sudo cp -r ~/.config/kitty ~/dotfiles/.
+sudo cp -r ~/.config/nvim ~/dotfiles/.
 
 cd ~/dotfiles/
 
