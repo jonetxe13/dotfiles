@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-mv -r ~/.oh-my-zsh ~/dotfiles/.
-mv -r ~/.themes ~/dotfiles/.
-mv -r ~/.p10k.zsh ~/dotfiles/.
-mv -r ~/.config/kitty ~/dotfiles/.
-mv -r ~/.config/nvim ~/dotfiles/.
+cp -r ~/.oh-my-zsh ~/dotfiles/.
+cp -r ~/.themes ~/dotfiles/.
+cp -r ~/.p10k.zsh ~/dotfiles/.
+cp -r ~/.config/kitty ~/dotfiles/.
+cp -r ~/.config/nvim ~/dotfiles/.
 
 cd ~/dotfiles/
 
