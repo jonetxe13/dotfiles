@@ -33,3 +33,12 @@ mv ./.p10k.zsh ~/.
 mv ./powerlevel10k ~/.
 
 echo "folders moved successfully!!"
+
+#move scripts to bin
+sudo chmod +x usync dotfilessync
+sudo cp usync dotfilessync /bin/.
+
+cd ~/Desktop/
+
+git clone https://github.com/jonetxe13/obsidian.git
+git clone https://github.com/jonetxe13/universidad.git

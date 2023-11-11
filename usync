@@ -1,0 +1,17 @@
+#/bin/zsh
+
+cd ~/Desktop/obsidian/
+
+git pull
+git add .
+git commit -m "automatico portatil"
+git push
+
+
+cd ~/Desktop/universidad/
+
+git pull
+git add .
+git commit -m "automatico portatil"
+git push
+
